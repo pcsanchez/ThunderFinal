@@ -17,7 +17,7 @@ router.get("/results", (req, res) => {
                     total_acreditar: 0,
                     found: false}; 
     data.forEach((e) => {
-        if(e.__EMPTY_2 === req.query.matricula){
+        if(e.__EMPTY_2 === req.query.matricula.toUpperCase()){
             student.matricula = e.__EMPTY_2;
             student.ciudadano = e.__EMPTY_10;
             student.profesional = e.__EMPTY_11;
