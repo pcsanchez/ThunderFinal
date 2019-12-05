@@ -8,6 +8,6 @@ app.use(express.static(__dirname + "/public"));
 
 app.use(indexRoutes);
 
-app.listen(3000, function() {
+app.listen(process.env.PORT, function() {
     console.log("Server has started");
 })
