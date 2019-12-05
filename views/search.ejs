@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SIASS</title>    
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+    
+<body>
+    <div class="container-field">
+        <div class="row opaque-background">
+            <div class="col-lg-6 text-center">
+                <img class="py-3" src="tecdemty.png" alt="">
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="servicio.png" alt="">
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center" id="input-field">
+            <div class="col-xs-2 opaque-background">
+                <h1 class="px-3 pt-4"><strong>Ingresa tu matrícula</strong></h1>
+                <form action="/results" method="GET" class="px-3 pb-3">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="matricula" name="matricula" placeholder="Matricula con A0 o A00">
+                            <div class="input-group-append">
+                                <input type="submit" value="BUSCAR" class="btn" id="custom-btn">
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row fixed-bottom">
+            <div class="col-xs-12" style="width: 100%;">
+                    <div class="row">
+                        <div class="col-lg-4" id="acredit">
+                            <div class="text-center pt-3">
+                                <h1><strong>Horas Acreditadas</strong></h1>
+                                <p>Horas Acreditadas de Servicio:</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" id="proy">
+                            <div class="text-center pt-3">
+                                <h1><strong>Proyecto Actual</strong></h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pb-2" id="poracre">
+                            <div class="text-center pt-3">
+                                <h1><strong>Horas por Acreditar</strong></h1>
+                                <p>Servicio Social Ciudadano: </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-xs-12" style="width: 100%;">
+                <div style="background-color: #12203B; color: white;" class="text-center">
+                    © 2019 by INSTITUTO TECNOLÓGICO Y DE ESTUDIOS SUPERIORES DE MONTERREY
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

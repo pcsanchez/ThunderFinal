@@ -1,0 +1,25 @@
+{
+  "name": "thunderv2",
+  "version": "1.0.0",
+  "description": "Web App where students can see how many hours of volunteer work have they done during college.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcsanchez/ThunderV2.git"
+  },
+  "author": "pcsanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcsanchez/ThunderV2/issues"
+  },
+  "homepage": "https://github.com/pcsanchez/ThunderV2#readme",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "router": "^1.3.3",
+    "xlsx": "^0.15.2"
+  }
+}

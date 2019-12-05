@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#acredit {
+    background-color: #F58220;
+    color: white;
+}
+
+#proy {
+    background-color: #58B947;
+    color: white;
+}
+
+#poracre {
+    background-color:#00AAE7;
+    color: white;
+}
+
+.opaque-background {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+    height: 100px;
+}
+#input-field {
+    margin-top: 18%;
+}
+
+#custom-btn {
+    background-color:white;
+}
+
+#round-btn {
+    border-radius: 20px 20px;
+    background-color: #0785B8;
+    color: white;
+}
+
+#custom-btn:hover {
+    background-color:blue;
+    color: white;
+}
+#round-btn:hover {
+    background-color: blue;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+html, body {
+    background-image: url(../background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1{
+    font: normal normal normal 40px/1.4em poppins-semibold,poppins,sans-serif;
+}
+p{
+    font: normal normal normal 18px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+
+.px-3 pt-4{
+    font: normal normal normal 70px/1.4em poppins-semibold,poppins,sans-serif;
+}
