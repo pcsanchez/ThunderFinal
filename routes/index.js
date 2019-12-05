@@ -27,7 +27,7 @@ router.get("/results", (req, res) => {
     ws = wb.Sheets['Hoja 2'];
     data = xlsx.utils.sheet_to_json(ws);
     data.forEach((e) => {
-        if(e.__EMPTY_8 === req.query.matricula){
+        if(e.__EMPTY_8 === req.query.matricula.toUpperCase()){
             student.proyecto.push({proy: e.__EMPTY_2,
                                    horas: e.__EMPTY_17}); 
             student.total_acreditar+=e.__EMPTY_17;
